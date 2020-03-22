@@ -1,0 +1,21 @@
+{
+  "name": "movies-service",
+  "version": "1.0.0",
+  "description": "Prover informacao de filmes",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.test | tap-spec",
+    "start": "node index"
+  },
+  "author": "Wellington Andrade",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv-safe": "^8.2.0",
+    "express": "^4.17.1",
+    "helmet": "^3.21.3",
+    "mongodb": "^3.5.4",
+    "morgan": "^1.9.1",
+    "supertest": "^4.0.2",
+    "tape": "^4.13.0"
+  }
+}
